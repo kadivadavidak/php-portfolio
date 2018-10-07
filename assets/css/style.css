@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.t {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.logo {
+    width: 600px;
+}
+
+.icon {
+    width: 70px;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.footer a {
+    margin-top: 15px;
+}
